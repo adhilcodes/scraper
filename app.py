@@ -7,14 +7,7 @@ from datetime import datetime
 
 # Setting the configuration for the app
 config = {
-    "apiKey": "AIzaSyCS-fqlvMs8jX9UFMOnvFxFgtAxupZCLKM",
-    "authDomain": "db-padanam.firebaseapp.com",
-    "databaseURL": "https://db-padanam-default-rtdb.firebaseio.com",
-    "projectId": "db-padanam",
-    "storageBucket": "db-padanam.appspot.com",
-    "messagingSenderId": "854372348586",
-    "appId": "1:854372348586:web:6d6e3e70d7843f742956d3",
-    "measurementId": "G-8402SDDHM3"
+    **YOUR FIREBASE CREDENTIALS**
 }
 
 firebase = pyrebase.initialize_app(config)
