@@ -27,8 +27,7 @@ link_class = 'col-sm-10'
 def scraper(website_link, link_class):
 
     ''' Args : website_link - link of website to be crawled
-               link_class   - class name for job link on website
-               Returns : jobs_link - list of jobs '''
+               link_class   - class name for job link on website '''
 
     # getting content of website and parsing it
     
